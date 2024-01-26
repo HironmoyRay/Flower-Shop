@@ -1,0 +1,33 @@
+header {
+  background-color: rgba(229, 84, 115, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-container {
+  margin-left: 150px;
+}
+.text-container h1 {
+  margin-right: 150px;
+  color: rgba(39, 39, 39, 1);
+}
+.text-container p {
+  margin-right: 150px;
+  color: rgba(39, 39, 39, 0.6);
+}
+.text-container button {
+  background-color: rgba(229, 84, 115, 1);
+  color: rgba(255, 255, 255, 1);
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+.img-container {
+  padding-top: 50px;
+  margin-right: 150px;
+}
+.img-container img {
+  width: 350px;
+  height: 500px;
+}
