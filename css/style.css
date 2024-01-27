@@ -1,3 +1,19 @@
+/* global css */
+button {
+    background-color: rgba(229, 84, 115, 1);
+    color: rgba(255, 255, 255, 1);
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  p{
+    color: rgba(39, 39, 39, 0.6);
+  }
+
+
+
 header {
   background-color: rgba(229, 84, 115, 0.1);
   display: grid;
@@ -12,19 +28,8 @@ header {
   margin-right: 150px;
   color: rgba(39, 39, 39, 1);
 }
-.text-container p {
-  /* margin-right: 150px; */
-  color: rgba(39, 39, 39, 0.6);
-}
-button {
-  background-color: rgba(229, 84, 115, 1);
-  color: rgba(255, 255, 255, 1);
-  border: 0px;
-  border-radius: 5px;
-  padding: 10px 15px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
+
+
 .img-container {
   padding-top: 50px;
   margin-right: 200px;
@@ -41,7 +46,6 @@ button {
   margin: 0px 150px;
 }
 .feature-text p {
-  color: rgba(39, 39, 39, 0.6);
   padding: 0px 150px;
 }
 .feature-img-container {
@@ -103,9 +107,6 @@ button {
     padding: 50px ;
 }
 
-.support-section p{
-    color: rgba(39, 39, 39, 0.8);
-}
 
 /* //////////////////////////////////////////////////////////// */
 .hot-deal-section{
@@ -131,4 +132,42 @@ padding: 50px 50px 50px 0px;
 }
 .hot-deal-img-div img{
     width: 50%;
+}
+
+/* /////////////////////////////////////// */
+.social-section{
+    margin: 100px 150px;
+}
+.insta-div{
+    text-align: center;
+}
+.insta-div p{
+    padding: 0px 250px;
+}
+.insta-img-collection{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.insta-img-div{
+    padding: 0px 10px;
+}
+.insta-img-collection img{
+    width: 100%;  
+}
+
+/* //////////////////////////////////////// */
+.latest-section {
+    background-image:url("../images/buttonBanner.png");
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    margin: 20px 10px;
+    padding: 50px;
+}
+.latest-section input{
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px 50px 10px 15px;
+    margin-bottom: 10px;
 }
