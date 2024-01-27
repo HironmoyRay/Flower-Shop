@@ -184,8 +184,32 @@ header {
 .latest-section input {
   border: 0px;
   border-radius: 5px;
-  padding: 10px 50px 10px 15px;
+  padding: 10px 150px 10px 15px;
   margin-bottom: 10px;
+}
+
+/* ////////////////////////////////////////////////////// */
+
+.review-section div{
+  background-image: url(../images/customer_Review.jpeg);
+  background-size: cover;
+  background-position: center;
+  padding: 20px 50px;
+  margin: 50px 150px;
+  border-radius: 20px;
+  
+}
+
+.review-div p{
+  font-size: larger;
+  color: black;
+}
+#profile-img{
+  width: 100px;
+}
+#star{
+  width: 25px;
+  /* display: block; */
 }
 
 /* /////////////////////////////////////////////////// */
